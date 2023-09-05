@@ -124,3 +124,54 @@ A partir desse ponto, você pode continuar trabalhando em seu projeto, fazendo c
     Isso cria um novo commit que desfaz as mudanças introduzidas pelo commit especificado.
 
 Estes são apenas alguns exemplos básicos de comandos Git. O Git oferece uma ampla gama de recursos para gerenciar seu fluxo de trabalho de desenvolvimento e colaboração com outros desenvolvedores em um projeto. Certifique-se de consultar a documentação oficial do Git para aprender mais sobre suas capacidades avançadas.
+
+## Comandos GIT
+
+### 1. `git status`
+
+O comando `git status` é usado para verificar o estado atual do seu repositório Git. Ele fornece informações sobre quais arquivos foram modificados, adicionados ou removidos desde o último commit. É uma ferramenta útil para entender o que está acontecendo no seu projeto.
+
+Exemplo de uso:
+```bash
+git status
+```
+
+### 2. `git add .`
+
+O comando `git add .` é usado para adicionar todas as mudanças no diretório de trabalho ao índice (staging area) do Git. Isso significa que as mudanças serão preparadas para serem incluídas no próximo commit.
+
+Exemplo de uso:
+```bash
+git add .
+```
+
+### 3. `git commit -am`
+
+O comando `git commit -am "mensagem"` é usado para criar um novo commit que inclui todas as mudanças no índice com uma mensagem de commit associada. O `-a` indica que todas as mudanças (exceto arquivos não rastreados) devem ser incluídas no commit, e o `m` permite que você forneça uma mensagem de commit.
+
+Exemplo de uso:
+```bash
+git commit -am "Adiciona novos recursos"
+```
+
+### 4. `git branch`
+
+O comando `git branch` é usado para listar todas as branches no seu repositório Git. Ele exibe todas as branches locais e indica qual é a branch atual (a que está marcada com um asterisco).
+
+Exemplo de uso:
+```bash
+git branch
+```
+
+### 5. `git push origin`
+
+O comando `git push origin` é usado para enviar as mudanças do branch atual para um repositório remoto. O `origin` é o nome padrão do repositório remoto associado ao seu repositório local.
+
+Exemplo de uso:
+```bash
+git push origin main
+```
+
+Neste exemplo, estamos enviando as mudanças do branch "main" para o repositório remoto. Certifique-se de substituir "main" pelo nome da branch que você deseja enviar. Este comando atualiza o repositório remoto com as mudanças que você fez localmente.
+
+Lembre-se de que o Git é uma ferramenta poderosa para o controle de versão e colaboração em projetos de desenvolvimento de software. Os comandos mencionados acima são apenas alguns dos comandos básicos que você usará com frequência ao trabalhar com Git. Existem muitos outros comandos e recursos avançados disponíveis para gerenciar seu repositório Git de forma eficaz.
