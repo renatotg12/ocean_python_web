@@ -2,6 +2,10 @@
 
 TRILHA Eventos Ocean Brasil
 
+05/09/2023 - Renato Teixeira Gomes - renatotg10@gmail.com
+
+Documentação criada com auxílio do ChatGPT (https://chat.openai.com/)
+
 ## Programando para Web com Python, CSS e HTML
 
 ### Criando um novo repositório local
