@@ -163,7 +163,16 @@ Exemplo de uso:
 git branch
 ```
 
-### 5. `git push origin`
+### 5. `git log`
+
+O comando `git log` é usado para exibir o histórico de commits no seu repositório Git. Ele mostra informações detalhadas sobre os commits, como autor, data, mensagem do commit e um hash único associado a cada commit.
+
+Exemplo de uso:
+```bash
+git log
+```
+
+### 6. `git push origin`
 
 O comando `git push origin` é usado para enviar as mudanças do branch atual para um repositório remoto. O `origin` é o nome padrão do repositório remoto associado ao seu repositório local.
 
@@ -172,6 +181,6 @@ Exemplo de uso:
 git push origin main
 ```
 
-Neste exemplo, estamos enviando as mudanças do branch "main" para o repositório remoto. Certifique-se de substituir "main" pelo nome da branch que você deseja enviar. Este comando atualiza o repositório remoto com as mudanças que você fez localmente.
+Neste exemplo, estamos enviando as mudanças do branch "main" para o repositório remoto chamado "origin". Certifique-se de substituir "main" pelo nome da branch que você deseja enviar. Este comando atualiza o repositório remoto com as mudanças que você fez localmente.
 
 Lembre-se de que o Git é uma ferramenta poderosa para o controle de versão e colaboração em projetos de desenvolvimento de software. Os comandos mencionados acima são apenas alguns dos comandos básicos que você usará com frequência ao trabalhar com Git. Existem muitos outros comandos e recursos avançados disponíveis para gerenciar seu repositório Git de forma eficaz.
